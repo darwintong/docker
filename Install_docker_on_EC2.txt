@@ -1,0 +1,24 @@
+# How to install docker on EC2 easily
+https://devopsmyway.com/install-docker-on-ec2-instance/
+
+Step 1–  Log to Linux EC2 Instance and update it.
+
+  $ sudo yum update -y
+
+ 
+
+Step 2– Install docker using Yum command
+
+ $ sudo yum install docker -y
+
+ 
+
+Step 3– Start Docker Service
+
+ $ Service docker start
+
+ 
+
+Step 4– Check docker Version.
+
+ $ docker -v
