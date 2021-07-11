@@ -1,0 +1,6 @@
+FROM centos:latest
+RUN yum update -y
+RUN cd ~
+RUN mkdir test2021
+CMD [ "echo" "Hello from Wade!" ]
+EXPOSE 80
